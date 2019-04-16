@@ -4,7 +4,6 @@ This is my first repository
 
 //Code1:To display hello world//
 #include <iostream>
-
 int main()
 {
   std::cout << "Hello World!";
@@ -13,13 +12,10 @@ int main()
 
 //code 2:To display factors of a number//
 #include <iostream>
-using namespace std;
-
 int main()
 {
     int n, i;
-
-    cout << "Enter a positive integer: ";
+ cout << "Enter a positive integer: ";
     cin >> n;
 
     cout << "Factors of " << n << " are: " << endl;  
@@ -34,8 +30,6 @@ int main()
 
 //Code3:To display prime numbers between two numbers
 #include <iostream>
-using namespace std;
-
 int main()
 {
     int low, high, i, flag;
