@@ -1,37 +1,69 @@
 # repo1
+
 This is my first repository
-//Code1
+
+//Code1:To display hello world//
 #include <iostream>
 
 int main()
 {
   std::cout << "Hello World!";
 }
-#code2
 
-include <iostream>
+
+//code 2:To display factors of a number//
+#include <iostream>
 using namespace std;
 
 int main()
 {
-  int n, i;
-  bool isPrime = true;
+    int n, i;
 
-  cout << "Enter a positive integer: ";
-  cin >> n;
+    cout << "Enter a positive integer: ";
+    cin >> n;
 
-  for(i = 2; i <= n / 2; ++i)
-  {
-      if(n % i == 0)
-      {
-          isPrime = false;
-          break;
-      }
-  }
-  if (isPrime)
-      cout << "This is a prime number";
-  else
-      cout << "This is not a prime number";
+    cout << "Factors of " << n << " are: " << endl;  
+    for(i = 1; i <= n; ++i)
+    {
+        if(n % i == 0)
+            cout << i << endl;
+    }
 
-  return 0;
+    return 0;
 }
+
+//Code3:To display prime numbers between two numbers
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int low, high, i, flag;
+
+    cout << "Enter two numbers(intervals): ";
+    cin >> low >> high;
+
+    cout << "Prime numbers between " << low << " and " << high << " are: ";
+
+    while (low < high)
+    {
+        flag = 0;
+
+        for(i = 2; i <= low/2; ++i)
+        {
+            if(low % i == 0)
+            {
+                flag = 1;
+                break;
+            }
+        }
+
+        if (flag == 0)
+            cout << low << " ";
+
+        ++low;
+    }
+
+    return 0;
+}
+
