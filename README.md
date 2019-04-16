@@ -2,30 +2,30 @@
 
 This is my first repository
 
-//Code1:To display hello world//
+//Code1:To display hello world
+
 #include <iostream>
 int main()
 {
-  std::cout << "Hello World!";
+  cout << "Hello World!";
 }
 
 
-//code 2:To display factors of a number//
+//code 2:To display factors of a number
+
 #include <iostream>
 int main()
 {
     int n, i;
  cout << "Enter a positive integer: ";
     cin >> n;
-
-    cout << "Factors of " << n << " are: " << endl;  
+ cout << "Factors of " << n << " are: " << endl;  
     for(i = 1; i <= n; ++i)
     {
         if(n % i == 0)
             cout << i << endl;
     }
-
-    return 0;
+ return 0;
 }
 
 //Code3:To display prime numbers between two numbers
@@ -33,11 +33,9 @@ int main()
 int main()
 {
     int low, high, i, flag;
-
-    cout << "Enter two numbers(intervals): ";
+ cout << "Enter two numbers(intervals): ";
     cin >> low >> high;
-
-    cout << "Prime numbers between " << low << " and " << high << " are: ";
+cout << "Prime numbers between " << low << " and " << high << " are: ";
 
     while (low < high)
     {
