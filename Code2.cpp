@@ -1,10 +1,4 @@
-ave the knowledge of following C++ programming topics:
 
-C++ Multidimensional Arrays
-C++ Arrays
-To multiply two matrices, the number of columns of first matrix should be equal to the number of rows to second matrix. This program displays the error until the number of columns of first matrix is equal to the number of rows of second matrix.
-
-Example: Multiply two matrices without using functions
 #include <iostream>
 using namespace std;
 
