@@ -33,8 +33,7 @@ void main()
 	getch();
 }
 Output:
-enter number of names to be added: 5
-enter names:
+enter any five string(names):
 rahul
 virat
 vijay
