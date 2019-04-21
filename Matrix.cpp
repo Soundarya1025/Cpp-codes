@@ -1,4 +1,4 @@
-/* C++ program-To find roots of a quadratic equation */
+/* C++ program-To find the multiplication matrix */
 #include <iostream>
 using namespace std;
 
