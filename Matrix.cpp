@@ -1,4 +1,4 @@
-
+/* C++ program-To find roots of a quadratic equation */
 #include <iostream>
 using namespace std;
 
@@ -69,7 +69,7 @@ int main()
 
     return 0;
 }
-Output
+Output:
 
 Enter rows and column for first matrix: 3
 2
