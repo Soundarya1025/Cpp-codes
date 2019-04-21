@@ -1,3 +1,4 @@
+/* C++ program-To find whether a given number is an Armstrong number or not*/
 #include <iostream>
 using namespace std;
 
