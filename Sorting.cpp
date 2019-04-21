@@ -1,4 +1,4 @@
-/* C++ Program - Sort String in Alphabetical Order */
+/* C++ Program - Sort Strings in Alphabetical Order */
 		
 #include<iostream.h>
 #include<conio.h>
@@ -39,17 +39,7 @@ virat
 vijay
 bumrah
 rahane
-
-before sorting
-printing ........
-sachin
-virat
-bravo
-dhoni
-raina
-
-after alphabetical sorting
-printing ........
+Strings(names) in alphabetical order:
 bravo
 dhoni
 raina
